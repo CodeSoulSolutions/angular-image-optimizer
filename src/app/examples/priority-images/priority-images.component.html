@@ -1,0 +1,30 @@
+<div class="row justify-content-center">
+    <div class="col-md-10 col-lg-8">
+      <div class="card mb-5 border-primary">
+        <div class="card-body">
+          <h2 class="card-title h4 mb-4">Priority Loading Example</h2>
+          
+          <div class="mb-4 border rounded overflow-hidden">
+            <img ngSrc="../../assets/images/priority.png" 
+                 width="1200" 
+                 height="800" 
+                 priority
+                 class="img-fluid"
+                 alt="Hero image with priority loading">
+          </div>
+
+          <div class="alert alert-info">
+            <p class="mb-2">This hero image loads first due to the <code>priority</code> attribute.</p>
+            <p class="mb-0">Check your browser's Network tab to see the difference!</p>
+          </div>
+          
+          <h3 class="h5 mt-4 mb-3">Non-priority image for comparison:</h3>
+          <img ngSrc="../../assets/images/non-priority.png" 
+               width="600" 
+               height="400" 
+               class="img-thumbnail"
+               alt="Regular loaded image">
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,24 @@
+<header class="bg-primary text-white py-3 shadow-sm">
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <h1 class="mb-3 mb-md-0 h4">Angular Image Optimizer</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/basic" routerLinkActive="active">Basic Usage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/responsive" routerLinkActive="active">Responsive</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/priority" routerLinkActive="active">Priority Loading</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="container my-5">
+  <router-outlet></router-outlet>
+</main>

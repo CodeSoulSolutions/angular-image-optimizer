@@ -1,0 +1,15 @@
+<section>
+    <h2>Responsive Product Gallery</h2>
+    <div class="gallery d-flex gap-3">
+      <img ngSrc="../../assets/images/product-1.png"
+           width="600"
+           height="400"
+           [ngSrcset]="'300w, 600w, 900w'"
+           sizes="(max-width: 768px) 90vw, 40vw">
+      <img ngSrc="../../assets/images/product-2.png"
+           width="600"
+           height="400"
+           [ngSrcset]="'300w, 600w'"
+           sizes="(max-width: 768px) 90vw, 40vw">
+    </div>
+  </section>
